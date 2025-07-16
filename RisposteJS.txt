@@ -1,0 +1,13 @@
+ALGORITMO
+
+Un algoritmo può essere inteso come un manuale delle istruzioni per risolvere un problema 
+o una "situazione" in generale. Se nel manuale di istruzioni troviamo scritti tutti i vari
+step per arrivare al risultato finale desiderato nell'informatica questi saranno gli input;
+mentre il risultato finale l'output.
+
+VARIABILI
+
+Prendendo sempre come esempio un manuale di istruzioni e il suo rispettivo utilizzo, le variabili 
+possono essere paragonate a dei contenitori contenenti le varie parti organizzate per tipo, ad 
+esempio: se il manuale si riferisce al montaggio di un mobile una variabile potrebbe essere la scatola 
+contenente viti e bulloni.  
