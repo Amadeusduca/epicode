@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    box-shadow: rgba(125, 125, 136, 0.5) 0 7px 29px 0 ;
+}
+.nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.left-section img {
+    width: 80px;
+}
+.left-section h1 {
+    font-size: 3.5rem;
+    margin-left: 20px;
+}
+.button-1 {
+    border: none;
+    background-color: white;
+}
+.button-1 img {
+    width: 40px;
+}
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.button-4 {
+    font-size: 1.3rem;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: white;
+    border-width: 1px;
+}
+.button-5 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    padding: 10px;
+    border: none;
+    background-color: rgb(255, 81, 0);
+    color: white;
+}
+main {
+    width: 100%;
+    display: flex;
+}
+.main-left-section {
+    width: 70%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.top-main-left {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: gray;
+    border-bottom: gray solid 1px;
+    padding: 1.5rem;
+}
+.top-main-left span {
+    color: black;
+}
+.right-main {
+    border-left: gray solid 1px;
+    width: 30%;
+}
+.top-card img {
+    width: 40px;
+    margin-right: 8px;
+}
+.top-card {
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.top-card span {
+    font-family: Helvetica;
+    color: gray;
+}
+.title {
+    font-family: Helvetica;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.paragraph {
+    margin-left: 5px;
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.div-prg {
+    color: gray;
+}
+.div-prg span {
+    padding: 0.3px 5px;
+    border-radius: 50px;
+    background-color: rgb(212, 206, 206);
+}
+.button-card {
+    background-color: white;
+    border: none;
+}
+.button-card img {
+    width: 25px;
+}
+.bottom-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.div-btn {
+    display: flex;
+    gap: 15px;
+}
+.big-img {
+    width: 300px;
+    height: 185px;
+    overflow: hidden;
+}
+.big-img img {
+    height: 165px;
+}
+.card-1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.left-section-card {
+    width: 100%;
+}
+.right-main {
+    width: 30%;
+}
+.side-bar {
+    width: 100%;
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 400px;
+} 
+.top-right-main img {
+    width: 60px;
+}
+.button-plus {
+    background-color: white;
+    font-size: 60px;
+    color: gray;
+    border: none;
+    font-weight: lighter; 
+}
+.button-twt {
+    border: none;
+    background-color: white;
+    width: 60px;
+}
+.icons-div {
+    display: flex;
+}
+.top-right-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 3rem;
+    border-bottom: gray solid 1px;
+}
+.under-icons-p p {
+    font-family: Helvetica;
+}
+.connect-twitter img {
+    width: 40px;
+}
+.connect-twitter a {
+    text-decoration: none;
+    color: black;
+}
+.connect-twitter {
+    display: flex;
+    align-items: center;
+    border:  black solid 1px;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 0.5px 10px;
+}
+.ancor a {
+    color: gray;
+}
+.div-w {
+    background-color: rgb(214, 202, 202);
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 15px;
+}
+.words {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    gap: 30px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Helvetica;
+}
+.first-title h3 {
+    font-family: Helvetica;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+}
+.card-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-part {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.content-right-photo h3 {
+    font-family: Helvetica;
+    margin-bottom: 5px;
+}
+.content-right-photo p {
+    color: gray;
+}
+.right-part button {
+    border: black solid 1px;
+    border-radius: 50px;
+    padding: 10px 15px;
+    background-color: white;
+}
+.content-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.second-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.title-third-block h4 {
+    font-family: Helvetica;
+    font-size: 1.2rem;
+}
+.mini-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mini-card p {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.mini-card span {
+    color: gray;
+    font-weight: normal;
+}
+.mini-card img {
+    width: 30px;
+}
+.title-under-third h3 {
+    font-family: Helvetica;
+}
+.div-star img {
+    width: 15px;
+}
+.div-pp p {
+    color: gray;
+}
+.details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content-third-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.third-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.top-final-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.top-final-card p {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.content-final-card p {
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 1.2rem;
+}
+.footer-card p {
+    color: gray;
+}
+.final-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ancor-final a {
+    color: green;
+    text-decoration: none
+}
+.fourth-block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.final-block-footer a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.final-block-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
